@@ -1,0 +1,61 @@
+.container-gyro {
+  background: black
+}
+.gyro {
+  transform-style: preserve-3d;
+  perspective: 300px;
+}
+.z-15 {
+  transform: translateZ(-15px);
+}
+.z-35 {
+  transform: translateZ(-35px);
+}
+.z-75 {
+  transform: translateZ(-75px);
+}
+.z-85 {
+  transform: translateZ(-85px);
+}
+.z-110 {
+  transform: translateZ(-110px);
+}
+.z-120 {
+  transform: translateZ(-120px);
+}
+.z-155 {
+  transform: translateZ(-155px);
+}
+.cyan {
+  --o-fill: var(--o-cyan)
+}
+.cyan-light {
+  --o-fill: var(--o-cyan-light)
+}
+.cyan-dark-transparent {
+  --o-fill: var(--o-cyan-dark);
+  opacity: 0.6
+}
+.pink {
+  --o-fill: var(--o-pink)
+}
+
+.transparent {
+  --o-fill: none
+}
+
+.white {
+ color: white
+}
+
+.dashed-small {
+opacity: 0.5; 
+height: 3px; 
+background: var(--o-cyan-darker);
+}
+
+.dashed-big {
+opacity: 0.8; 
+height: 6px; 
+background: var(--o-cyan);
+}
